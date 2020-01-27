@@ -1,0 +1,48 @@
+{
+  "name": "svelte-product-zoomer",
+  "version": "1.0.0",
+  "description": "Svelte package for product image zoom",
+  "svelte": "src/ProductZoomer.svelte",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "NODE_ENV=development rollup -cw",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mick912/svelte-product-zoomer.git"
+  },
+  "keywords": [
+    "svelte",
+    "svelte-image-zoom",
+    "image-zoom",
+    "product image zoom",
+    "ecommers",
+    "driftjs",
+    "svelte-driftjs",
+    "slider"
+  ],
+  "author": "Mirjan Asymbaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mick912/svelte-product-zoomer/issues"
+  },
+  "homepage": "https://github.com/mick912/svelte-product-zoomer#readme",
+  "devDependencies": {
+    "@gen/rollup-plugin-generate-html": "^0.1.1",
+    "rollup": "^1.16.2",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.1.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-svelte": "^5.1.0",
+    "svelte": "^3.6.1"
+  },
+  "files": [
+    "src",
+    "dist/index.js",
+    "dist/index.mjs"
+  ]
+}
